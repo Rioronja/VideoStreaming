@@ -48,7 +48,6 @@ while True:
     data = pickle.dumps(frac, 0)
     size = len(data)
     client_socket.sendall(struct.pack(">L", size) + data)
-    print(size)#, serialNum, frac)
     serialNum += 1
     f = cv2.imdecode(frac['frame'], cv2.IMREAD_COLOR)
     if cv2.waitKey(1) & 0xFF == ord('q'):
