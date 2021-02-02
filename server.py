@@ -23,3 +23,5 @@ while True:
         cnt = 0
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
+
+    
