@@ -58,3 +58,9 @@ while True:
         print("FPS: ", cnt)
         timeThen = time.time()
         cnt = 0
+
+# compress
+# file_name = 'image-1-compressed.jpg'
+# picture = Image.open('image-1.jpg')
+# picture.save("Compressed_"+file_name,optimize=True,quality=30) 
+
